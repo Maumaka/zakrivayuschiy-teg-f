@@ -1,1 +1,0 @@
-https://maumaka.github.io/zakrivayuschiy-teg-f/

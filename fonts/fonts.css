@@ -7,6 +7,7 @@
         url(Inter-Variable.woff2) format('woff2-variations');
     font-display: swap;
     font-weight: 400 700;
+    font-variation-settings: "wght" 400 700;
 }
 
 @font-face {
@@ -17,5 +18,6 @@
         url(PressStart2P-Regular.woff) format('woff-variations');
     font-display: swap;
     font-weight: 400;
+    font-variation-settings: "wght" 400;
 }
     

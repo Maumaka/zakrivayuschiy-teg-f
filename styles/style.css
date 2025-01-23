@@ -171,14 +171,14 @@
   border: 0px;
   padding-top: 2px;
   padding-right: 0;
-  margin-bottom: -5px; 
+  margin-bottom: -5px;
   outline: 0;
   background: transparent;
 }
 
 .card__icon-button:focus-visible .like-icon {
   outline: var(--border);
-  outline-offset: 5px;  
+  outline-offset: 5px;
 }
 
 .button {
@@ -250,7 +250,7 @@
 }
 
 @media (width <= 375px) {
-  .footer_button { 
+  .footer_button {
     flex-direction: column;
   }
 }
@@ -275,7 +275,7 @@
 
 .dialog {
   flex-direction: column;
-  gap: 30px; 
+  gap: 30px;
   border: var(--border);
   padding-inline: 30px;
   padding-block: 28.5px;
@@ -319,6 +319,6 @@
   }
 }
 
-.dialog_button > .button__text   {
+.dialog_button > .button__text {
   text-transform: uppercase;
 }

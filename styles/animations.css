@@ -9,3 +9,81 @@
 ✦ button__text — для обозначения текстового элемента внутри кнопки
 
 */
+
+.heart_icon_main-body {
+  fill: var(--body-color);
+  transition: fill 0.5s 0.05s;
+}
+
+.like-icon:hover .heart_icon_main-body {
+  fill: var(--contour-color);
+}
+
+.like-icon:active .heart_icon_main-body {
+  fill: var(--sparks-color);
+}
+
+.heart_icon_core  {
+  fill: var(--core-color);
+  transition: fill 0.5s;
+}
+
+.like-icon:hover .heart_icon_core {
+  fill: var(--contour-color);
+}
+
+.like-icon:active .heart_icon_core {
+  fill: var(--sparks-color);
+}
+
+.heart_icon_sparks {
+  opacity: 0;
+}
+
+.heart_icon_contour {
+  transition: fill 0.5s 0.07s;
+}
+
+.like-icon.is-liked .heart_icon_contour {
+  fill: var(--sparks-color);
+}
+
+.like-icon.is-liked .heart_icon_core {
+  fill: var(--sparks-color);
+}
+
+.like-icon.is-liked .heart_icon_main-body {
+  fill: var(--sparks-color);
+}
+
+.like-icon.is-liked {
+  animation: transform 0.3s ease-in;
+}
+
+.like-icon.is-liked .heart_icon_sparks {
+  animation: sparks 0.3s 0.2s ease-in;
+}
+
+@keyframes transform {
+
+  0% {
+
+}
+
+  100% {
+  transform: scale(1.25);
+  }
+
+}
+
+@keyframes sparks {
+  
+  0% {
+    opacity: 0%;
+  }
+  
+  100% {
+    opacity: 100%;
+  }
+  
+}

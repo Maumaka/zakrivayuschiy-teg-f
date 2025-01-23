@@ -1,1 +1,22 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+    --font-Inter: 'Inter-Variable';
+    --font-PressStart2P: 'PressStart2P-Regular';
+    --title-font-weight: 400;
+    --background-color: #fff;
+    --text-color: #000;
+    --border: 2px solid #000;
+    --floppy-color: #fff;
+    --contour-color: #000;
+    --core-color: #fff;
+    --body-color: #fff;
+    --sparks-color: red;
+}
+
+.lable {
+    --text-size: 14px;
+}
+
+.like-icon:hover .heart_icon_core {
+    --core-color: #000;
+  }

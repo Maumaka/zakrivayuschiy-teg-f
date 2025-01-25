@@ -22,7 +22,7 @@
   background-attachment: fixed;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-variation-settings: "wght" var(--page-font-variation-setting-wght); 
+  font-variation-settings: "wght" var(--page-font-variation-setting-wght);
 }
 
 @media (width <= 375px) {
@@ -86,7 +86,7 @@
   z-index: 1;
   inset: 25 0 clamp(16.5rem, 9.7rem + 29.014vw, 35.813rem) 0;
   top: 25px;
-  right: clamp(0.8125rem, 0.5484rem + 1.1268vw, 1.5625rem);;
+  right: clamp(0.8125rem, 0.5484rem + 1.1268vw, 1.5625rem);
   opacity: 0.5;
   color: var(--text-color);
   font-family: var(--font-PressStart2P), sans-serif;

@@ -11,6 +11,8 @@
     --core-color: #fff;
     --body-color: #fff;
     --sparks-color: red;
+    --page-font-variation-setting-wght: 400;
+    --card-title-font-variation-setting-wght: 700;
 }
 
 .lable {
